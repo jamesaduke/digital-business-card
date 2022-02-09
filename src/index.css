@@ -29,4 +29,70 @@ body{
 .info--name{
   color: #fff;
   font-family: 'Roboto Mono', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 0.1rem;
 }
+.info--title{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.08rem;
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+  color: #FF9A51;
+}
+.info--web{
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 0.85rem;
+}
+
+.info--btn-group{
+  margin-top: 1.2rem;
+}
+
+button{
+  border: none;
+  border-radius: 0.2rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.info--btn{
+  padding: 0.65rem 1rem;
+}
+
+button > a{
+  text-decoration: none;
+}
+#email-btn{
+  margin-right: 1rem;
+}
+#email-btn  > a{
+  color: #000;
+}
+
+.email-icon{
+  margin-right: 0.5rem;
+}
+
+#linkedin-btn{
+  background-color: #4585DD;
+  color: white;
+}
+
+.fa-linkedin{
+  margin-right: 0.5rem;
+  margin-bottom: 0;
+}
+
+#linkedin-btn > a{
+  color: #fff;
+}
+
+
+
+
