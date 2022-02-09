@@ -11,7 +11,7 @@ function Info(){
         <div className="info">
             <img src={ProfilePic} alt="headshot" className="headshot"/>
 
-            <h2 className="info--name">Not James Aduke</h2>
+            <h2 className="info--name">Not James AtALL</h2>
             <h5 className="info--title">Frontend Developer</h5>
             <p className="info--web">jamesaduke.netlify.app</p>
 
