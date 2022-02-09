@@ -18,7 +18,7 @@ function Info(){
             <div className="info--btn-group">
                 <button className="info--btn" id="email-btn">
                     <FontAwesomeIcon icon={faEnvelope} className="email-icon" />
-                    <a className="email-btn" href = "mailto: adukework@gmail.com">Email Me</a>
+                    <a className="email-btn" href = "mailto: adukework@gmail.com">Email</a>
                 </button>
 
                 <button className="info--btn" id="linkedin-btn">

@@ -13,7 +13,7 @@ body{
 }
 
 .main--content{
-  width: 400px;
+  width: 280px;
   background-color: #17191D;
   margin-top: 15px;
 }
@@ -24,6 +24,7 @@ body{
 }
 .headshot{
   width: 100%;
+  height: 100%;
 }
 
 .info--name{
@@ -62,7 +63,7 @@ button{
   transition: all 0.2s ease-in-out;
 }
 .info--btn{
-  padding: 0.65rem 1rem;
+  padding: 0.65rem 1.6rem;
 }
 
 button > a{
@@ -87,19 +88,37 @@ button > a{
 .fa-linkedin{
   margin-right: 0.5rem;
   margin-bottom: 0;
+  font-size: 1em;
 }
 
-#linkedin-btn > a{
+#linkedin-btn > a, .email-btn{
   color: #fff;
+  font-size: 0.9em;
 }
 
 
 /* About */
-.about{
+.about, .interest{
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
+  margin-bottom: 0.1rem;
+  padding: 1.18em;
+  color: #fff;
+}
+
+.interest{
+  margin-top: 0;
 }
 
 
+.about--title, .interest--title{
+  margin-left: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.about--description, .interest--description{
+  color: #5D5F63;
+  font-weight: lighter;
+  font-size: 0.85em;
+}
 
